@@ -1,9 +1,16 @@
+h1 {
+    text-align: center;
+}
+
 article {
     border: 1px solid black;
     width: 60%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
     padding: 20px;
-    background-color: cyan;
+    background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
 }
@@ -14,20 +21,31 @@ h2 {
 
 h2 ~ p {
     text-align: center;
+    background-color: black;
+    color: yellow;
 }
 
 .highlight{
-    background-color: yellow;
+    background-color: gray;
+}
+
+.highlightexception {
+    background-color: white;
+    color: black;
+}
+
+article:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
 .quote::before {
     content: '"';
-    color: purple;
+    color: white;
     font-size: 20px;
 }
 
 .quote::after {
     content: '"';
-    color: purple;
+    color: white;
     font-size: 20px;
 }
