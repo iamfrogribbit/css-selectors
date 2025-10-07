@@ -7,3 +7,6 @@
 # Questions
 
 ## Is there a better way than to use h1 ~ p which selected every single paragraph under a h1 element? If I want to style a paragraph under a heading but keep the rest the same, how would I do it?
+
+## Is there a way to only highlight the width of the text rather than highlighting the entire paragraph element?
+
